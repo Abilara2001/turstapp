@@ -1,171 +1,70 @@
-# TrustApp - Charitable Trust Website
+# Getting Started with Create React App
 
-A modern, responsive website for a charitable trust organization built with React, TypeScript, and Tailwind CSS.
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## 🚀 Features
+## Available Scripts
 
-- **Responsive Design**: Works perfectly on all devices and screen sizes
-- **Modern UI/UX**: Clean, elegant design with smooth animations
-- **TypeScript**: Full type safety and better development experience
-- **Tailwind CSS**: Utility-first CSS framework for rapid styling
-- **React Router**: Client-side routing for seamless navigation
-- **Framer Motion**: Smooth animations and transitions
-- **Form Handling**: Contact and donation forms with validation
-- **Interactive Gallery**: Photo gallery with filtering and modal view
-- **Team Management**: Member profiles and team information
-- **Cause Management**: Dynamic cause listing with progress tracking
+In the project directory, you can run:
 
-## 📁 Project Structure
+### `npm start`
 
-```
-src/
-├── components/          # Reusable UI components
-│   ├── Button.tsx
-│   ├── Card.tsx
-│   ├── Hero.tsx
-│   ├── Navbar.tsx
-│   ├── Footer.tsx
-│   └── BackToTop.tsx
-├── pages/              # Page components
-│   ├── HomePage.tsx
-│   ├── AboutPage.tsx
-│   ├── CausesPage.tsx
-│   ├── DonatePage.tsx
-│   ├── MembersPage.tsx
-│   ├── GalleryPage.tsx
-│   └── ContactPage.tsx
-├── hooks/              # Custom React hooks
-│   ├── useForm.ts
-│   └── useScrollToTop.ts
-├── types/              # TypeScript type definitions
-│   └── index.ts
-├── utils/              # Utility functions
-│   └── helpers.ts
-├── data/               # Mock data
-│   └── mockData.ts
-├── assets/             # Static assets
-├── App.tsx             # Main App component
-├── App.css             # App-specific styles
-└── index.css           # Global styles with Tailwind
-```
+Runs the app in the development mode.\
+Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
-## 🛠️ Technologies Used
+The page will reload when you make changes.\
+You may also see any lint errors in the console.
 
-- **React 19** - Frontend library
-- **TypeScript** - Type safety
-- **Tailwind CSS** - Styling framework
-- **React Router DOM** - Client-side routing
-- **Framer Motion** - Animation library
-- **Lucide React** - Icon library
-- **React Hook Form** - Form handling
-- **Yup** - Form validation
+### `npm test`
 
-## 🚀 Getting Started
+Launches the test runner in the interactive watch mode.\
+See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-### Prerequisites
+### `npm run build`
 
-- Node.js (v14 or higher)
-- npm or yarn
+Builds the app for production to the `build` folder.\
+It correctly bundles React in production mode and optimizes the build for the best performance.
 
-### Installation
+The build is minified and the filenames include the hashes.\
+Your app is ready to be deployed!
 
-1. Clone the repository:
-```bash
-git clone <repository-url>
-cd trustapp
-```
+See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-2. Install dependencies:
-```bash
-npm install
-```
+### `npm run eject`
 
-3. Start the development server:
-```bash
-npm start
-```
+**Note: this is a one-way operation. Once you `eject`, you can't go back!**
 
-4. Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
 
-### Building for Production
+Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
 
-```bash
-npm run build
-```
+You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
 
-This builds the app for production to the `build` folder.
+## Learn More
 
-## 📱 Pages
+You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
-- **Home** - Hero section, stats, featured causes, and call-to-action
-- **About Us** - Mission, vision, values, team leadership, and achievements
-- **Our Causes** - List of causes with filtering, search, and progress tracking
-- **Donate** - Donation form with amount selection and payment processing
-- **Members** - Team member profiles with search and filtering
-- **Gallery** - Photo gallery and upcoming events
-- **Contact** - Contact form, office information, and FAQ
+To learn React, check out the [React documentation](https://reactjs.org/).
 
-## 🎨 Design System
+### Code Splitting
 
-### Colors
-- **Primary**: Blue (#3b82f6)
-- **Secondary**: Green (#22c55e)
-- **Accent**: Orange (#f97316)
-- **Neutral**: Gray scale
+This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
 
-### Typography
-- **Headings**: Inter (Bold)
-- **Body**: Inter (Regular)
-- **Serif**: Merriweather (for special content)
+### Analyzing the Bundle Size
 
-### Components
-- Consistent button styles with hover effects
-- Card components with shadows and animations
-- Form inputs with validation states
-- Responsive grid layouts
+This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
 
-## 🔧 Customization
+### Making a Progressive Web App
 
-### Adding New Pages
-1. Create a new component in `src/pages/`
-2. Add the route in `src/App.tsx`
-3. Update navigation in `src/components/Navbar.tsx`
+This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
 
-### Modifying Data
-- Update mock data in `src/data/mockData.ts`
-- Modify types in `src/types/index.ts` if needed
+### Advanced Configuration
 
-### Styling
-- Global styles in `src/index.css`
-- Component-specific styles in `src/App.css`
-- Tailwind configuration in `tailwind.config.js`
+This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
 
-## 📦 Available Scripts
+### Deployment
 
-- `npm start` - Runs the app in development mode
-- `npm run build` - Builds the app for production
-- `npm test` - Launches the test runner
-- `npm run eject` - Ejects from Create React App (one-way operation)
+This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
 
-## 🤝 Contributing
+### `npm run build` fails to minify
 
-1. Fork the repository
-2. Create a feature branch
-3. Make your changes
-4. Test thoroughly
-5. Submit a pull request
-
-## 📄 License
-
-This project is licensed under the MIT License.
-
-## 🙏 Acknowledgments
-
-- Icons by [Lucide](https://lucide.dev/)
-- Animations by [Framer Motion](https://www.framer.com/motion/)
-- Styling by [Tailwind CSS](https://tailwindcss.com/)
-- Images from [Placeholder.com](https://placeholder.com/)
-
-## 📞 Support
-
-For support or questions, please contact us at info@trustapp.org or through our contact form on the website.
+This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
