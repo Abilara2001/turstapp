@@ -9,7 +9,7 @@ export function GalleryPage(): JSX.Element {
 				{gallery.map(img => (
 					<figure key={img.id} className="gallery-card">
 						<img src={img.url} alt={img.caption} />
-						<figcaption className="muted">{img.caption}</figcaption>
+						<figcaption className="muted text-center">{img.caption}</figcaption>
 					</figure>
 				))}
 			</div>

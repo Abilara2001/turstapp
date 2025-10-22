@@ -1,11 +1,11 @@
 :root{
-	--bg:#0b132b;
-	--bg-soft:#1c2541;
+	--bg:#5e83f0;
+	--bg-soft:#6e88d7;
 	--primary:#2ec4b6;
 	--accent:#5bc0be;
 	--text:#e5f4f3;
-	--muted:#b5c3c2;
-	--card:#14213d;
+	--muted:#1c2222;
+	--card:#2f4b85;
 	--success:#2ecc71;
 	--shadow:0 10px 20px rgba(0,0,0,.25);
 }
@@ -33,7 +33,7 @@ body{
 
 .form{display:grid; gap:12px; max-width:520px}
 .form label{display:grid; gap:6px}
-.form input,.form textarea{padding:12px 14px; border-radius:12px; border:1px solid transparent; background:#0f1b3d; color:var(--text); outline:none; box-shadow: var(--shadow)}
+.form input,.form textarea{padding:12px 14px; border-radius:12px; border:1px solid transparent; background:#283d89; color:var(--text); outline:none; box-shadow: var(--shadow)}
 .toast{margin-top:16px; padding:12px 14px; border-radius:12px; background:#0f1b3d; box-shadow: var(--shadow)}
 .toast.success{border-left:4px solid var(--success)}
 
@@ -82,7 +82,7 @@ body{
 .links a.active, .links a:hover{color:var(--text); background:rgba(255,255,255,.06)}
 
 /* Footer */
-.footer{margin-top:64px; background:#0a122e; border-top:1px solid rgba(255,255,255,.06)}
+.footer{margin-top:64px; background:#283d89; border-top:1px solid rgba(255,255,255,.06)}
 .footer-inner{width:min(1200px,92%); margin:0 auto; padding:32px 0; display:grid; gap:24px; grid-template-columns: repeat(auto-fit, minmax(220px,1fr))}
 .footer h4,.footer h5{margin:0 0 10px}
 .footer .socials{display:flex; gap:12px}

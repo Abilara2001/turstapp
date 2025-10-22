@@ -1,6 +1,7 @@
 import React from 'react';
 import { Mail, MapPin, Phone } from 'lucide-react';
 import './footer.css';
+import { Twitter, Facebook, Instagram } from "lucide-react";
 
 export function Footer(): JSX.Element {
 	return (
@@ -17,13 +18,19 @@ export function Footer(): JSX.Element {
 					<p><MapPin size={16} /> 123 Hope Ave, Kind City</p>
 				</div>
 				<div className="col">
-					<h5>Follow</h5>
-					<div className="socials">
-						<a href="https://twitter.com" target="_blank" rel="noreferrer" aria-label="Twitter">Twitter</a>
-						<a href="https://facebook.com" target="_blank" rel="noreferrer" aria-label="Facebook">Facebook</a>
-						<a href="https://instagram.com" target="_blank" rel="noreferrer" aria-label="Instagram">Instagram</a>
-					</div>
-				</div>
+  <h5>Follow</h5>
+  <div className="socials flex gap-4">
+    <a href="https://twitter.com" target="_blank" rel="noreferrer" aria-label="Twitter">
+      <Twitter className="w-6 h-6 text-secondary-600 hover:text-sky-400 transition-colors" />
+    </a>
+    <a href="https://facebook.com" target="_blank" rel="noreferrer" aria-label="Facebook">
+      <Facebook className="w-6 h-6 text-secondary-600 hover:text-blue-500 transition-colors" />
+    </a>
+    <a href="https://instagram.com" target="_blank" rel="noreferrer" aria-label="Instagram">
+      <Instagram className="w-6 h-6 text-secondary-600 hover:text-pink-400 transition-colors" />
+    </a>
+  </div>
+</div>
 			</div>
 			<div className="copy">© {new Date().getFullYear()} Charity Trust. All rights reserved.</div>
 		</footer>

@@ -8,7 +8,7 @@ export function AboutPage(): JSX.Element {
 				Founded in 2010, Charity Trust is dedicated to uplifting underserved communities through
 				sustainable programs in education, health, and environmental stewardship.
 			</p>
-			<div className="grid two">
+			<div className="grid grid-cols-3">
 				<div>
 					<h3>Vision</h3>
 					<p>A world where every individual has equal access to opportunities and well-being.</p>
