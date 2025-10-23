@@ -5,7 +5,7 @@
 	--accent:#5bc0be;
 	--text:#e5f4f3;
 	--muted:#1c2222;
-	--card:#2f4b85;
+	--card:#6c94e4;
 	--success:#2ecc71;
 	--shadow:0 10px 20px rgba(0,0,0,.25);
 }
@@ -49,8 +49,8 @@ body{
   }
   
   .card-img {
-    width: 100%;
-    height: 180px;
+    width: 90%;
+    height: 190px;
     object-fit: cover;
   }
   

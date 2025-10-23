@@ -12,7 +12,7 @@ if (!container) {
 const root = createRoot(container);
 root.render(
 	<React.StrictMode>
-<BrowserRouter basename="/charityApp">
+<BrowserRouter>
 <App />
 		</BrowserRouter>
 	</React.StrictMode>
