@@ -1,0 +1,174 @@
+/* Footer Styles */
+.footer {
+  background: linear-gradient(135deg, #1f2937 0%, #111827 100%);
+  color: white;
+  padding: 3rem 0 1.5rem;
+  margin-top: auto;
+}
+
+.footer-inner {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 1rem;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 2rem;
+  margin-bottom: 2rem;
+}
+
+.footer .col h4 {
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: white;
+  margin-bottom: 1rem;
+}
+
+.footer .col h5 {
+  font-size: 1.125rem;
+  font-weight: 600;
+  color: #e5e7eb;
+  margin-bottom: 1rem;
+}
+
+.footer .col p {
+  color: #9ca3af;
+  line-height: 1.6;
+  margin-bottom: 0.75rem;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.footer .col p svg {
+  color: #6b7280;
+  flex-shrink: 0;
+}
+
+.socials {
+  display: flex;
+  gap: 1rem;
+  margin-top: 1rem;
+}
+
+.socials a {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 2.5rem;
+  height: 2.5rem;
+  background: rgba(255, 255, 255, 0.1);
+  border-radius: 0.5rem;
+  transition: all 0.3s ease;
+  color: #9ca3af;
+}
+
+.socials a:hover {
+  background: rgba(255, 255, 255, 0.2);
+  color: white;
+  transform: translateY(-2px);
+}
+
+.copy {
+  text-align: center;
+  padding-top: 1.5rem;
+  border-top: 1px solid rgba(255, 255, 255, 0.1);
+  color: #9ca3af;
+  font-size: 0.875rem;
+}
+
+/* Mobile Responsive */
+@media (max-width: 768px) {
+  .footer {
+    padding: 2.5rem 0 1.25rem;
+  }
+  
+  .footer-inner {
+    grid-template-columns: 1fr;
+    gap: 1.5rem;
+    padding: 0 1rem;
+    margin-bottom: 1.5rem;
+  }
+  
+  .footer .col {
+    text-align: center;
+  }
+  
+  .footer .col h4 {
+    font-size: 1.375rem;
+    margin-bottom: 0.75rem;
+  }
+  
+  .footer .col h5 {
+    font-size: 1rem;
+    margin-bottom: 0.75rem;
+  }
+  
+  .footer .col p {
+    justify-content: center;
+    font-size: 0.9rem;
+  }
+  
+  .socials {
+    justify-content: center;
+    margin-top: 0.75rem;
+  }
+  
+  .socials a {
+    width: 2.25rem;
+    height: 2.25rem;
+  }
+  
+  .copy {
+    padding-top: 1.25rem;
+    font-size: 0.8rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .footer {
+    padding: 2rem 0 1rem;
+  }
+  
+  .footer-inner {
+    gap: 1.25rem;
+    padding: 0 0.75rem;
+    margin-bottom: 1.25rem;
+  }
+  
+  .footer .col h4 {
+    font-size: 1.25rem;
+  }
+  
+  .footer .col h5 {
+    font-size: 0.95rem;
+  }
+  
+  .footer .col p {
+    font-size: 0.85rem;
+    margin-bottom: 0.5rem;
+  }
+  
+  .socials a {
+    width: 2rem;
+    height: 2rem;
+  }
+  
+  .copy {
+    padding-top: 1rem;
+    font-size: 0.75rem;
+  }
+}
+
+/* Tablet adjustments */
+@media (min-width: 769px) and (max-width: 1024px) {
+  .footer-inner {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1.75rem;
+  }
+  
+  .footer .col:first-child {
+    grid-column: 1 / -1;
+    text-align: center;
+    margin-bottom: 1rem;
+  }
+}
